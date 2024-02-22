@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "ventojs/": "https://raw.githubusercontent.com/oscarotero/vento/main/",
+    "TEMP/": "https://deno.land/x/vento@v0.10.2/"
+  }
+}
