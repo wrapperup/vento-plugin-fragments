@@ -1,6 +1,5 @@
 {
-  "imports": {
-    "ventojs/": "https://raw.githubusercontent.com/oscarotero/vento/main/",
-    "TEMP/": "https://deno.land/x/vento@v0.10.2/"
+  "tasks": {
+    "build": "deno run --allow-run=npm --allow-env --allow-read --allow-write --allow-net=deno.land build_npm.ts"
   }
 }

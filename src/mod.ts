@@ -1,5 +1,4 @@
-import { Environment } from "ventojs/src/environment.ts";
-import { Token } from "ventojs/src/tokenizer.ts";
+import { Environment, Token } from "../deps.ts";
 
 function fragmentPreprocessor(
   _env: Environment,
