@@ -13,6 +13,7 @@ await build({
   scriptModule: false,
   shims: {
     // see JS docs for overview and more options
+    deno: true,
   },
   package: {
     // package.json properties
@@ -29,6 +30,11 @@ await build({
     },
   },
   mappings: {
+    "https://deno.land/x/vento@v0.12.1/mod.ts": {
+      name: "ventojs",
+      version: "^0.12.1",
+      peerDependency: true,
+    },
     "https://deno.land/x/vento@v0.12.1/src/environment.ts": {
       name: "ventojs",
       version: "^0.12.1",
