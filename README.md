@@ -4,7 +4,7 @@ Vento Template Fragments
 </h1>
 
 [![Deno Version](https://deno.land/badge/vento_plugin_fragments/version)](https://deno.land/x/vento_plugin_fragments)
-[![NPM Version](https://img.shields.io/npm/v/vento-plugin-fragments)](https://www.npmjs.com/package/vite-plugin-bundle-scripts)
+[![NPM Version](https://img.shields.io/npm/v/vento-plugin-fragments)](https://www.npmjs.com/package/vento-plugin-fragments)
 
 A plugin for [Vento](https://vento.js.org) that allows you to render out small portions of a template.
 Useful for hypermedia-oriented front-end libraries like [htmx](https://htmx.org).
@@ -16,7 +16,7 @@ Useful for hypermedia-oriented front-end libraries like [htmx](https://htmx.org)
 ```js
 import fragments from "https://deno.land/x/vento_plugin_fragments@0.1.0/mod.ts"
 
-env.use(fragments);
+env.use(fragments());
 ```
 
 ### Node
@@ -28,7 +28,7 @@ Then simply import the plugin.
 ```js
 import fragments from "vento-plugin-fragments";
 
-env.use(fragments);
+env.use(fragments());
 ```
 
 ## Usage
