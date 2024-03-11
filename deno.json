@@ -1,5 +1,7 @@
 {
   "tasks": {
-    "build": "deno run --allow-run=npm --allow-env --allow-read --allow-write --allow-net=deno.land build_npm.ts"
-  }
+    "build": "deno run --allow-run=npm --allow-env --allow-read --allow-write --allow-net=deno.land build_npm.ts",
+    "test": "deno test --allow-read"
+  },
+  "lock": false
 }
