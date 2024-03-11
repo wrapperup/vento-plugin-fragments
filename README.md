@@ -9,6 +9,9 @@ Vento Template Fragments
 A plugin for [Vento](https://vento.js.org) that allows you to render out small portions of a template.
 Useful for hypermedia-oriented front-end libraries like [htmx](https://htmx.org).
 
+This implementation is based on htmx's
+[template fragments](https://htmx.org/essays/template-fragments/) essay.
+
 ## Installation ##
 
 ### Deno
