@@ -1,4 +1,4 @@
-import { Environment, Token } from "../deps.ts";
+import { Environment, Token } from "./deps.ts";
 
 // Re-merge string tokens that were split up by fragment tags
 function mergeStringTokens(tokens: Token[]) {

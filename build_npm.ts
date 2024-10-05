@@ -30,20 +30,20 @@ await build({
     },
   },
   mappings: {
-    "https://deno.land/x/vento@v0.12.1/mod.ts": {
+    "https://deno.land/x/vento@v1.12.10/mod.ts": {
       name: "ventojs",
-      version: "^0.12.1",
+      version: "^1.12.10",
       peerDependency: true,
     },
-    "https://deno.land/x/vento@v0.12.1/src/environment.ts": {
+    "https://deno.land/x/vento@v1.12.10/src/environment.ts": {
       name: "ventojs",
-      version: "^0.12.1",
+      version: "^1.12.10",
       peerDependency: true,
       subPath: "src/environment.js",
     },
-    "https://deno.land/x/vento@v0.12.1/src/tokenizer.ts": {
+    "https://deno.land/x/vento@v1.12.10/src/tokenizer.ts": {
       name: "ventojs",
-      version: "^0.12.1",
+      version: "^1.12.10",
       peerDependency: true,
       subPath: "src/tokenizer.js",
     },
