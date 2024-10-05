@@ -1,5 +1,5 @@
 import tmpl from "https://deno.land/x/vento@v0.12.1/mod.ts";
-import fragments from "../src/mod.ts";
+import fragments from "../mod.ts";
 import { assertEquals } from "https://deno.land/std@0.205.0/assert/assert_equals.ts";
 
 Deno.test("Simple fragment", () => {

@@ -4,7 +4,7 @@ import { build, emptyDir } from "https://deno.land/x/dnt/mod.ts";
 await emptyDir("./npm");
 
 await build({
-  entryPoints: ["./src/mod.ts"],
+  entryPoints: ["./mod.ts"],
   packageManager: "pnpm",
   outDir: "./npm",
   compilerOptions: {
