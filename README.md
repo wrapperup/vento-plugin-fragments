@@ -17,7 +17,7 @@ This implementation is based on htmx's
 ### Deno
 
 ```js
-import fragments from "https://deno.land/x/vento_plugin_fragments@0.1.0/mod.ts"
+import fragments from "https://deno.land/x/vento_plugin_fragments@0.1.1/mod.ts"
 
 env.use(fragments());
 ```
